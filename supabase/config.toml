@@ -1,0 +1,19 @@
+project_id = "sgdkyvllifjrgpogsssq"
+
+[functions.send-campaign-emails]
+verify_jwt = true
+
+[functions.track-email]
+verify_jwt = false
+
+[functions.generate-email]
+verify_jwt = true
+
+[functions.process-scheduled-campaigns]
+verify_jwt = false
+
+[functions.ai-insights]
+verify_jwt = true
+
+[functions.generate-personalized-email]
+verify_jwt = true
